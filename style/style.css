@@ -19,10 +19,17 @@
     font-style: normal;
 }
 
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #292929;
     color: #fff;
     font-family: 'GothamPro', sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -63,4 +70,121 @@ body {
     text-align: right;
     margin-top: 16px;
     font-size: 16px;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 77px;
+    border-bottom: 1px solid #4c4c4c;
+}
+
+.hero-title {
+    font-size: 34px;
+    margin-bottom: 34px;
+    font-family: "Gotham Pro Medium";
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.34px;
+}
+
+.hero-description {
+    text-transform: uppercase;
+    font-family: "Gotham Pro Light";
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.18px;
+    margin-bottom: 87px;
+}
+
+.flowers-slider {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 83px;
+    margin-top: 87px;
+}
+
+.hero-cta {
+    display: block;
+    font-family: "Gotham Pro Light";
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.19px;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 83px;
+    margin-bottom: 36px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff2e55;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-top: 36px;
+    border: 3px solid #ff2e55;
+}
+
+:root {
+    --swiper-navigation-size: 18px;
+    --swiper-theme-color: #ff3469;
+}
+
+.section-title {
+    font-family: "Gotham Pro Medium";
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.review-slide {
+    padding-left: 60px;
+}
+
+.reviewe-image {
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: "Gotham Pro Light";
+    position: relative;
+}
+
+.reviewe-image:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+
+.reviewe-image>* {
+    position: relative;
+}
+
+.reviewe-image-1 {
+    background: burlywood url(../img/reviews/flowerReviews.jpg);
+}
+
+.review-name {
+    margin-bottom: 7px;
 }

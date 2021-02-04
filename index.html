@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowers - магазин цветов </title>
     <link rel="stylesheet" href="/style/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/style/style.css">
+
 
 </head>
 
@@ -36,6 +38,89 @@
         </div>
         <!-- /.container -->
     </header>
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Эксклюзивные цветы и букеты<br> flowers Shop </h1>
+            <p class="hero-description">первая в россии эксклюзивная доставка цветов<br> для людей, которые ценят
+                <b>уникальность</b></p>
+            <!-- Slider with flowers -->
+            <div class="swiper-container flowers-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/flowers/flower1.png" alt="" class="slide-image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower2.png" alt="" class="slide-image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower3.png" alt="" class="slide-image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower4.png" alt="" class="slide-image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower5.png" alt="" class="slide-image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower6.png" alt="" class="slide-image"></div>
+                    <div class="swiper-slide"><img src="img/flowers/flower3.png" alt="" class="slide-image"></div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+            <!--close .swipper-container slider -->
+
+            <span class="hero-cta">Закажите эксклюзивный букет со <b>скидкой 10%</b></span>
+            <!--call to action (cta)-->
+            <a href="" class="button">Заказать букет</a>
+        </div>
+        <!-- /.container -->
+
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">Мы делаем лучшие букеты</h2>
+
+            <!-- Slider with reviwes  -->
+            <div class="swiper-container  reviwes-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide d-flex align-items-center review-slide">
+                        <div class="reviewe-image d-flex align-items-center justify-content-center flex-column reviewe-image-1">
+                            <span class="review-name">Алиса Иванова</span>
+                            <span class="review-city">г. Ноябрьск</span>
+
+                        </div>
+                        <div class="review-text">
+                            Я очень довольна таким отношением к делу. Обслужили просто превосходно, я заказывала по телефону — так подробно мне всё объяснили, помогли выбрать замечательный букет, и привезли всё вовремя, букет был очень красивый, он очень понравился, спасибо вам
+                            огромное.
+                        </div>
+                        <a href="" class="reviews-link">Посмотреть фотографии букета</a>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
+            </div>
+            <!--close .swipper-container slider -->
+
+
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
