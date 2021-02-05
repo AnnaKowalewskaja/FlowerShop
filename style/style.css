@@ -80,15 +80,18 @@ body {
 }
 
 .hero-title {
+    margin: auto;
     font-size: 34px;
     margin-bottom: 34px;
     font-family: "Gotham Pro Medium";
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.34px;
+    max-width: 692px;
 }
 
 .hero-description {
+    margin: auto;
     text-transform: uppercase;
     font-family: "Gotham Pro Light";
     font-size: 18px;
@@ -96,6 +99,7 @@ body {
     font-style: normal;
     letter-spacing: 0.18px;
     margin-bottom: 87px;
+    max-width: 590px;
 }
 
 .flowers-slider {
@@ -440,4 +444,68 @@ body {
     letter-spacing: 0.12px;
     font-weight: 300;
     font-style: normal;
+}
+
+.modal {
+    display: none;
+}
+
+.modal-title {
+    color: #292929;
+}
+
+.modal-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.modal-button {
+    width: 100%;
+}
+
+@media(max-width:768px) {
+    .header {
+        text-align: center;
+    }
+    .header-contacts {
+        text-align: center;
+    }
+    .hero {
+        padding-top: 50px;
+    }
+    .hero-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .hero-description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .button {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .advantages-title {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .colors {
+        max-width: 200px;
+        margin: auto;
+    }
+    .card-label {
+        margin: 15px auto;
+        display: block;
+    }
+}
+
+@media(max-width:576px) {
+    .footer-info {
+        text-align: left;
+    }
 }
