@@ -380,3 +380,64 @@ body {
     text-decoration: none;
     color: #fff
 }
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 33px;
+}
+
+.footer-menu-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.footer-menu-item {
+    margin-right: 30px;
+}
+
+.social {
+    font-size: 16px;
+    text-align: left;
+}
+
+.footer-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer-info {
+    text-align: right;
+}
+
+.footer-phone {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.footer-end {
+    background-color: #fff;
+    width: 100%;
+}
+
+.img-footer-end {
+    margin-right: 42px;
+    margin-top: 48px;
+}
+
+.info-text {
+    color: #292929;
+    font-size: 12px;
+    display: inline-block;
+    font-family: "Gotham Pro Light";
+    text-align: left;
+    letter-spacing: 0.12px;
+    font-weight: 300;
+    font-style: normal;
+}
